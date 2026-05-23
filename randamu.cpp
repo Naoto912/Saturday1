@@ -4,8 +4,17 @@
 
 int main()
 {
-    srand(time(NULL));
-    int num = rand() % 10 + 0;
+    int input;
+    
+    scanf_s(%d , &input);
+
+    scrand(time(NULL));
+
+    int num  = rand() % 10;
+
+
     printf("’Š‘IŒ‹‰Ê: %d\n", num);
+    
+    
     return 0;
 }
